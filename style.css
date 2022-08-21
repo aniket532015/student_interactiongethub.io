@@ -1,0 +1,67 @@
+html,
+body {
+  /* height: 100%;
+  width: 100%; */
+  background: black;
+  color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+.lhead {
+  font-size: 25px;
+}
+.lhead img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+img {
+  width: 600px;
+  height: 500px;
+}
+lh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
